@@ -1,0 +1,8 @@
+#!/bin/bash
+# variables to override from control_file.defaults
+
+# example
+export min_frac_orthos=0.50 #minimum fraction of species with SCOs to count OG
+export ANI_shortlist=6 # max number of seqs to run through Orthofinder
+export tree_method=("fasttree" "iqtree")
+export gene_tree_methods=("fasttree")
